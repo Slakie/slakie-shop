@@ -20,6 +20,7 @@ const storage = new CloudinaryStorage({
   cloudinary: cloud,
   params: {
     folder: 'slakieshop',
+    transformation: '540x430pad', // transforms image dimensions: width 540px / height 430px
     public_id: (req, file) =>
       `${file.originalname.split('.')[0]}-${Date.now()}`,
   },
