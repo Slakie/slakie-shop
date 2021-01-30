@@ -48,7 +48,7 @@ const products = [
     numReviews: 0,
   },
   {
-    name: 'Logitech G502 Lightspeed Wireless Gaming Mouse',
+    name: 'Logitech G502 Wireless Gaming Mouse',
     image: '/images/LogitechG502.jpg',
     description:
       "employs Logitech's new signature Wi-Fi wireless technology, also called Lightspeed, which allows for sub-millisecond lag. ... In short, the Lightspeed allows you peace of mind around all the issues that using a wireless mouse normally adds to your PC setup",
